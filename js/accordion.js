@@ -7,7 +7,7 @@ btns.forEach((btnItem, index) => {
             btnItem.classList.remove('feature__link__active')
         })
 
-        btnItem.classList.add('feature__link_active')
+        btnItem.classList.add('feature__link__active')
 
         lists.forEach((listItem) => {
             listItem.classList.add('hidden')
